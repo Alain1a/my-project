@@ -6,7 +6,7 @@ const items = [
     {
         id: 1,
         title: "API Development",
-        img: "/api1.jpeg",
+        img: "/api1.jpeg" ,
         desc:  "They create RESTful or GraphQL APIs to facilitate communication between the frontend and backend components of web applications. Full stack developers design API endpoints, handle HTTP requests and responses, and ensure data integrity and security. ",
     },
    
@@ -74,8 +74,7 @@ const Portfolio = () => {
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
-        transion:{
-            duration:1,}
+        
         
     })
 
