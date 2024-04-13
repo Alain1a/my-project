@@ -1,0 +1,37 @@
+.about{
+    width: 100%;
+    height: calc(100vh - 10px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 100px;
+    }
+    .mountains{
+        /* background-image: url("/mountains.jpeg"); */
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;;
+        height: 100%;
+        position: absolute;
+        z-index:3;
+    }
+    .planets{
+        background-image: url("/planets.jpeg");
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;;
+        height: 100%;
+        position: absolute;
+    }
+    .stars{
+        background-image: url("/stars.jpeg");
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;;
+        height: 100%;
+        position: absolute;
+    }
+}
