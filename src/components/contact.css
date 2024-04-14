@@ -5,6 +5,12 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    flex-direction: column;
+    
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
 
     .textContainer {
         flex: 1;
@@ -13,8 +19,8 @@
         gap: 40px;
 
         h1 {
-            font-size: 100px;
-            line-height: 88px;
+            font-size: 5vw;
+            line-height: 1.2;
 
         }
 
@@ -24,14 +30,20 @@
     }
 
     .formContainer {
+        
         flex: 1;
+        font-size: 5vw;
 
         form {
             display: flex;
             flex-direction: column;
             gap: 20px;
+            
 
-            input,textarea {
+            input,
+            textarea {
+
+                width: 100%;
                 padding: 20px;
                 background-color: transparent;
                 border: 1px solid white;
@@ -40,14 +52,16 @@
 
 
             }
-            button{
+
+            button {
                 padding: 20px;
                 border: none;
                 background-color: orange;
                 cursor: pointer;
                 font-weight: 500;
             }
-        } 
+        }
     }
 
 }
+
