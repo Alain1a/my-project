@@ -4,7 +4,7 @@ html {
 }
 
 section {
-  height: 100%;
+  height: auto;
   scroll-snap-align: center;
 }
 
@@ -32,11 +32,29 @@ a {
   align-items: center;
 
   .box {
-    /* width: 200px;
+    width: 200px;
     height: 200px;
     background-color: white;
-    margin-left: 5%; */
+    margin-left: 5%;
 
 
+  }
+}
+
+@mixin mobile {
+  @media (max: width 738px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max: width 1024px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max: width 1366px) {
+    @content;
   }
 }

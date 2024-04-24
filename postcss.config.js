@@ -1,6 +1,11 @@
+// vite.config.js
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+  server: {
+    hmr: {
+      overlay: false
+    }
+  }
 }
+
+
+

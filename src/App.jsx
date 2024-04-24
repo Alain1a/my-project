@@ -17,7 +17,8 @@ function App() {
 
   return (
     <>
-      <div>
+      <div >
+        {/* <cursor/> */}
         <section id="Home">
           <Navbar />
           <Hero />
@@ -26,12 +27,12 @@ function App() {
           <Services type="Service" />
         </section>
         <section id="portfolio">
-          <Portfolio type="portfolio"/>
+          <Portfolio type="portfolio" />
         </section>
         <section id="contact">
-          <Contact type="contact"/>
+          <Contact type="contact" />
         </section>
-       
+
 
         {/* <Test/>
         <Test/> */}

@@ -29,12 +29,12 @@ const Services = () => {
             animate="animate"
             whileInView="animate"
             ref={ref}
-            animate={isInView && "animate "}
+        // animate={isInView && "animate "} 
         >
 
             <motion.dev className="textContainer" variants={variants}>
                 <p>
-                    I focus on helping your brand grow <br /> and move forward
+               I focus on helping your brand grow <br /> and move forward
                 </p>
                 <hr />
             </motion.dev>
@@ -77,7 +77,7 @@ const Services = () => {
                     <button>Go</button>
                 </motion.div>
             </motion.div>
-        </motion.div>
+        </motion.div >
     );
 };
 
